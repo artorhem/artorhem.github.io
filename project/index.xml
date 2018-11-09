@@ -2,32 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Puneet Mehrotra</title>
-    <link>http://localhost:1313/project/</link>
+    <link>artorhem.github.io/project/</link>
     <description>Recent content in Projects on Puneet Mehrotra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="artorhem.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Deep Learning</title>
-      <link>http://localhost:1313/project/deep-learning/</link>
+      <title>Revelio</title>
+      <link>artorhem.github.io/project/revelio/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>http://localhost:1313/project/deep-learning/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
+      <guid>artorhem.github.io/project/revelio/</guid>
+      <description>Revelio is a tool that statically analyses Python code for known vulnerabilities. The tool provides a IDE plugin for Sublime for highlighting vulnerabilities as well as a command-line interfaces that provides the following features:
+ Detection of vulnerable functions Detection of dependencies with vulnerabilities Automatic replacement of vulnerable function with safe alternatives Automatically running tests Detecting and updating outdated dependencies Downloading and analyzing of GitHub repositories as well as local files Automatically creating pull-requests to GitHub repositories to fix vulnerable functions  Currently, Revelio is just a prototype which was developed as part of a Software Engineering course.</description>
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>http://localhost:1313/project/example-external-project/</link>
+      <title>Trusted Capsules</title>
+      <link>artorhem.github.io/project/trusted_capsules/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>http://localhost:1313/project/example-external-project/</guid>
-      <description></description>
+      <guid>artorhem.github.io/project/trusted_capsules/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
     </item>
     
   </channel>
