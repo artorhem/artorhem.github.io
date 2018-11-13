@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Engineering on Puneet Mehrotra</title>
+    <link>artorhem.github.io/tags/software-engineering/</link>
+    <description>Recent content in Software Engineering on Puneet Mehrotra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="artorhem.github.io/tags/software-engineering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Revelio</title>
+      <link>artorhem.github.io/project/revelio/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>artorhem.github.io/project/revelio/</guid>
+      <description>Revelio is a tool that statically analyses Python code for known vulnerabilities. The tool provides a IDE plugin for Sublime for highlighting vulnerabilities as well as a command-line interfaces that provides the following features:
+ Detection of vulnerable functions Detection of dependencies with vulnerabilities Automatic replacement of vulnerable function with safe alternatives Automatically running tests Detecting and updating outdated dependencies Downloading and analyzing of GitHub repositories as well as local files Automatically creating pull-requests to GitHub repositories to fix vulnerable functions  Currently, Revelio is just a prototype which was developed as part of a Software Engineering course.</description>
+    </item>
+    
+  </channel>
+</rss>
