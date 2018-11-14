@@ -4,7 +4,7 @@
     
     <url>
     
-      <loc>artorhem.github.io/talk/example-talk/</loc>
+      <loc>/talk/example-talk/</loc>
       <lastmod>2018-05-11T00:00:00-07:00</lastmod>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
     
-      <loc>artorhem.github.io/talk/</loc>
+      <loc>/talk/</loc>
       <lastmod>2017-01-01T00:00:00-08:00</lastmod>
     </url>
     
@@ -20,7 +20,7 @@
     
     <url>
     
-      <loc>artorhem.github.io/project/revelio/</loc>
+      <loc>/project/revelio/</loc>
       <lastmod>2016-04-27T00:00:00-07:00</lastmod>
     </url>
     
@@ -28,7 +28,7 @@
     
     <url>
     
-      <loc>artorhem.github.io/project/trusted_capsules/</loc>
+      <loc>/project/trusted_capsules/</loc>
       <lastmod>2016-04-27T00:00:00-07:00</lastmod>
     </url>
     
@@ -36,7 +36,7 @@
     
     <url>
     
-      <loc>artorhem.github.io/categories/</loc>
+      <loc>/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -44,7 +44,7 @@
     
     <url>
     
-      <loc>artorhem.github.io/project/</loc>
+      <loc>/project/</loc>
       <lastmod>2016-04-27T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
@@ -53,7 +53,7 @@
     
     <url>
     
-      <loc>artorhem.github.io/publication_types/</loc>
+      <loc>/publication_types/</loc>
       <priority>0</priority>
     </url>
     
@@ -61,7 +61,7 @@
     
     <url>
     
-      <loc>artorhem.github.io/</loc>
+      <loc>/</loc>
       <lastmod>2017-10-15T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
@@ -70,7 +70,7 @@
     
     <url>
     
-      <loc>artorhem.github.io/tags/security/</loc>
+      <loc>/tags/security/</loc>
       <lastmod>2016-04-27T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
@@ -79,7 +79,7 @@
     
     <url>
     
-      <loc>artorhem.github.io/slides/</loc>
+      <loc>/slides/</loc>
       <priority>0</priority>
     </url>
     
@@ -87,14 +87,14 @@
     
     <url>
     
-      <loc>artorhem.github.io/slides/example-slides/</loc>
+      <loc>/slides/example-slides/</loc>
     </url>
     
   
     
     <url>
     
-      <loc>artorhem.github.io/tags/software-engineering/</loc>
+      <loc>/tags/software-engineering/</loc>
       <lastmod>2016-04-27T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
@@ -103,7 +103,7 @@
     
     <url>
     
-      <loc>artorhem.github.io/tags/</loc>
+      <loc>/tags/</loc>
       <lastmod>2016-04-27T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>

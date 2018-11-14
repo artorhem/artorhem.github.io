@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Puneet Mehrotra on Puneet Mehrotra</title>
-    <link>artorhem.github.io/</link>
+    <link>/</link>
     <description>Recent content in Puneet Mehrotra on Puneet Mehrotra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
-    <atom:link href="artorhem.github.io/" rel="self" type="application/rss+xml" />
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Cross-platform Data Integrity and Confidentiality with Graduated Access Control</title>
-      <link>artorhem.github.io/talk/example-talk/</link>
+      <link>/talk/example-talk/</link>
       <pubDate>Fri, 11 May 2018 00:00:00 -0700</pubDate>
       
-      <guid>artorhem.github.io/talk/example-talk/</guid>
+      <guid>/talk/example-talk/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/p&gt;
 
@@ -35,10 +35,10 @@ Further talk details can easily be added to this page using *Markdown* and $\rm 
     
     <item>
       <title>Revelio</title>
-      <link>artorhem.github.io/project/revelio/</link>
+      <link>/project/revelio/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>artorhem.github.io/project/revelio/</guid>
+      <guid>/project/revelio/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/artorhem/cpsc-507&#34; target=&#34;_blank&#34;&gt;Revelio&lt;/a&gt;&lt;/strong&gt; is a tool that statically analyses Python code for known vulnerabilities. The tool provides a IDE plugin for Sublime for highlighting vulnerabilities as well as a command-line interfaces that provides the following features:&lt;/p&gt;
@@ -118,10 +118,10 @@ Further talk details can easily be added to this page using *Markdown* and $\rm 
     
     <item>
       <title>Trusted Capsules</title>
-      <link>artorhem.github.io/project/trusted_capsules/</link>
+      <link>/project/trusted_capsules/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>artorhem.github.io/project/trusted_capsules/</guid>
+      <guid>/project/trusted_capsules/</guid>
       <description>&lt;p&gt;Security of data is tightly coupled to its access policy. However, in practice, a data owner has control of his data&amp;rsquo;s access policies only as far as the boundaries of his own systems. In this paper, we introduce graduated access control, which provides mobile, programmable, and dynamically-resolving policies for access control that extends a data owner&amp;rsquo;s policies across system boundaries. We realize this through a novel data-centric abstraction called trusted capsules and its associated system, the trusted data monitor.&lt;/p&gt;
 
 &lt;p&gt;A trusted capsule couples data and policy into a single mobile unit. A capsule is backwards-compatible and is indistinguishable from a regular file to applications. In coordination with the trusted data monitor a capsule provides data integrity and confidentiality on remote devices, strong authentication to a trusted capsule service, and supports nuanced and dynamic access control decisions on remote systems. We implemented our data monitor using ARM TrustZone.&lt;/p&gt;
@@ -132,10 +132,10 @@ Further talk details can easily be added to this page using *Markdown* and $\rm 
     
     <item>
       <title>Slides</title>
-      <link>artorhem.github.io/slides/example-slides/</link>
+      <link>/slides/example-slides/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>artorhem.github.io/slides/example-slides/</guid>
+      <guid>/slides/example-slides/</guid>
       <description>
 
 &lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
