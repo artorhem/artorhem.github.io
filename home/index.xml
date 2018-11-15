@@ -41,11 +41,11 @@ I graduated in 2013 from Birla Institute of Technology and Science - Pilani with
     </item>
     
     <item>
-      <title>Experience</title>
-      <link>/home/experience/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Projects</title>
+      <link>/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>/home/experience/</guid>
+      <guid>/home/projects/</guid>
       <description></description>
     </item>
     
@@ -59,11 +59,29 @@ I graduated in 2013 from Birla Institute of Technology and Science - Pilani with
     </item>
     
     <item>
+      <title>Talks</title>
+      <link>/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Recent Publications</title>
       <link>/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>/home/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/experience/</guid>
       <description></description>
     </item>
     
@@ -77,15 +95,6 @@ I graduated in 2013 from Birla Institute of Technology and Science - Pilani with
     </item>
     
     <item>
-      <title>Talks</title>
-      <link>/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
-      
-      <guid>/home/talks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Recent Posts</title>
       <link>/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
@@ -95,23 +104,13 @@ I graduated in 2013 from Birla Institute of Technology and Science - Pilani with
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
-      
-      <guid>/home/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Teaching</title>
       <link>/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>/home/teaching/</guid>
-      <description>This is an example of using the custom widget to create your own homepage section.
-I am a teaching instructor for the following courses at University X:
- CS101: An intro to computer science CS102: An intro to computer science CS103: An intro to computer science CS104: An intro to computer science CS105: An intro to computer science CS106: An intro to computer science CS107: An intro to computer science  </description>
+      <description>I was the Teaching Assistant for CPSC 319: Software Engineering Project at UBC from September 2017 to April 2018. This course provides an opportunity to undergrad students to design, implement and test on a large software system for an industry sponsor. The focus in this course is to apply waterfall SDLC methodology to the solution from inception to production, producing key documentation artefacts while working in a team.
+I acted as the industry sponsor liason and &amp;ldquo;engineering manager&amp;rdquo; to the teams.</description>
     </item>
     
     <item>
