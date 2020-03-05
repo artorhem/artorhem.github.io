@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Security on Puneet Mehrotra</title>
-    <link>/tags/security/</link>
-    <description>Recent content in Security on Puneet Mehrotra</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0700</lastBuildDate>
-    
-	<atom:link href="/tags/security/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Security | Puneet Mehrotra</title>
+    <link>//localhost:1313/tags/security/</link>
+      <atom:link href="//localhost:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <description>Security</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Fri, 25 May 2018 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>//localhost:1313/img/portrait.jpg</url>
+      <title>Security</title>
+      <link>//localhost:1313/tags/security/</link>
+    </image>
     
     <item>
       <title>Trusted Capsules</title>
-      <link>/project/trusted_capsules/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
-      
-      <guid>/project/trusted_capsules/</guid>
-      <description>Security of data is tightly coupled to its access policy. However, in practice, a data owner has control of his data&amp;rsquo;s access policies only as far as the boundaries of his own systems. In this paper, we introduce graduated access control, which provides mobile, programmable, and dynamically-resolving policies for access control that extends a data owner&amp;rsquo;s policies across system boundaries. We realize this through a novel data-centric abstraction called trusted capsules and its associated system, the trusted data monitor.</description>
+      <link>//localhost:1313/project/trusted_capsules/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 -0700</pubDate>
+      <guid>//localhost:1313/project/trusted_capsules/</guid>
+      <description>&lt;p&gt;Security of data is tightly coupled to its access policy. However, in practice, a data owner has control of his data&amp;rsquo;s access policies only as far as the boundaries of his own systems. In this paper, we introduce graduated access control, which provides mobile, programmable, and dynamically-resolving policies for access control that extends a data owner&amp;rsquo;s policies across system boundaries. We realize this through a novel data-centric abstraction called trusted capsules and its associated system, the trusted data monitor.&lt;/p&gt;
+&lt;p&gt;A trusted capsule couples data and policy into a single mobile unit. A capsule is backwards-compatible and is indistinguishable from a regular file to applications. In coordination with the trusted data monitor a capsule provides data integrity and confidentiality on remote devices, strong authentication to a trusted capsule service, and supports nuanced and dynamic access control decisions on remote systems. We implemented our data monitor using ARM TrustZone.&lt;/p&gt;
+&lt;p&gt;We show that graduated access control can express novel and useful real world policies, such as revocation, remote monitoring, and risk-adaptable disclosure. We illustrate trusted capsules for different file formats, including JPEG, FODT, and PDF. We also show compatibility with unmodified applications, such as LibreOffice Writer, Evince, and VLC.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

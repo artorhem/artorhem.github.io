@@ -1,48 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Puneet Mehrotra on Puneet Mehrotra</title>
-    <link>/</link>
-    <description>Recent content in Puneet Mehrotra on Puneet Mehrotra</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <title>Puneet Mehrotra</title>
+    <link>//localhost:1313/</link>
+      <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <description>Puneet Mehrotra</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 20 Dec 2018 13:51:00 -0800</lastBuildDate>
+    <image>
+      <url>//localhost:1313/img/portrait.jpg</url>
+      <title>Puneet Mehrotra</title>
+      <link>//localhost:1313/</link>
+    </image>
     
     <item>
-      <title>Cross-platform Data Integrity and Confidentiality with Graduated Access Control</title>
-      <link>/talk/tc/</link>
-      <pubDate>Fri, 11 May 2018 00:00:00 -0700</pubDate>
-      
-      <guid>/talk/tc/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/p&gt;
-
-&lt;/div&gt;
- --&gt;
-
-&lt;!-- 
-Slides can be added in a few ways:
-
-- **Create** slides using Academic&#39;s *Slides* feature and link using `url_slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
-
-Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+      <title>Analysing Snort with KLEE</title>
+      <link>//localhost:1313/project/formal_verification/</link>
+      <pubDate>Thu, 20 Dec 2018 13:51:00 -0800</pubDate>
+      <guid>//localhost:1313/project/formal_verification/</guid>
+      <description>&lt;p&gt;Verifying systems code is hard because of concurrency and inherent complexity of
+the code. Understanding the invariants and other behavioral and performance
+characteristics of a distributed systems is challenging because multiple nodes
+communicate and coordinate together towards the task of performing a
+computation.&lt;/p&gt;
+&lt;p&gt;Verification methods and tools implicitly assume that the code to be verified is
+deterministic. That is users of the software will provide relevant inputs, and
+by verifying program behavior using all possible values of that input, a given
+verification methodology can draw inferences about a system.&lt;/p&gt;
+&lt;p&gt;In the case of distributed software, the assumption of implicit determinism is
+void. Network software typically works in collaboration with other compute nodes
+in order to fulfill the required functionality. For example, in a peer-to-peer
+system, peers detect node failures using heartbeat messages. Service Oriented
+Architecture is another example where a number of services communicate using a
+complex chain of RPC calls. Since the underlying communication takes place in
+the form of raw packets, often the program behavior can potentially change if
+the packets are received out of order or packets are lost in the network.
+Therefore, in this context, both the incoming data and the send/receive order
+can potentially impact program behavior and consequently increase the complexity
+of verification methodology.&lt;/p&gt;
+&lt;p&gt;An additional challenge is attributed to concurrency. Most modern systems use
+multi-threading to achieve better performance. In such a case, the outcome of a
+program is a function of how individual threads are interleaved together.
+Reasoning about such interleaved execution paths is hard and adds another layer
+of complexity to the process of verification.&lt;/p&gt;
+&lt;p&gt;Given the above challenges, we were curious about the usability of existing
+symbolic execution tools for verification of system software. In particular, we
+were interested in understanding how easy it is to use symbolic execution to
+verify systems software that interacts with the networking stack. We, therefore,
+analyzed Snort using the popular symbolic execution engine named KLEE. We
+documented the challenges that we encountered along the way. We also looked at
+recent research papers to understand how they approach the problem of verifying
+such code.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;//localhost:1313/files/klee_snort.pdf&#34;&gt;PDF&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Revelio</title>
-      <link>/project/revelio/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
-      
-      <guid>/project/revelio/</guid>
-      <description>
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/artorhem/cpsc-507&#34; target=&#34;_blank&#34;&gt;Revelio&lt;/a&gt;&lt;/strong&gt; is a tool that statically analyses Python code for known vulnerabilities. The tool provides a IDE plugin for Sublime for highlighting vulnerabilities as well as a command-line interfaces that provides the following features:&lt;/p&gt;
-
+      <link>//localhost:1313/project/revelio/</link>
+      <pubDate>Sat, 26 May 2018 02:30:45 -0700</pubDate>
+      <guid>//localhost:1313/project/revelio/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/artorhem/cpsc-507&#34;&gt;Revelio&lt;/a&gt;&lt;/strong&gt; is a tool that statically analyses Python code for known vulnerabilities. The tool provides a IDE plugin for Sublime for highlighting vulnerabilities as well as a command-line interfaces that provides the following features:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Detection of vulnerable functions&lt;/li&gt;
 &lt;li&gt;Detection of dependencies with vulnerabilities&lt;/li&gt;
@@ -52,264 +69,78 @@ Further talk details can easily be added to this page using *Markdown* and $\rm 
 &lt;li&gt;Downloading and analyzing of GitHub repositories as well as local files&lt;/li&gt;
 &lt;li&gt;Automatically creating pull-requests to GitHub repositories to fix vulnerable functions&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Currently, Revelio is just a prototype which was developed as part of a Software Engineering course.&lt;/p&gt;
-
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Download the source code of the tool&lt;/li&gt;
 &lt;li&gt;Install all requirements: &lt;code&gt;pip install -r requirements.txt&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
-
 &lt;p&gt;In order for the tool to access the Github API the Github username and password need to be set as environment variables: &lt;code&gt;export GITHUB_USER=&amp;lt;user&amp;gt;&lt;/code&gt; and &lt;code&gt;export GITHUB_PASSWORD=&amp;lt;password&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-
 &lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-
 &lt;p&gt;To analyze a local repository the path must be provided:&lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;python cli.py --path &amp;quot;/local/path&amp;quot;&lt;/code&gt;&lt;/p&gt;
-
 &lt;p&gt;To analyze a remote repository on github the URL to the repository must be provided:&lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;python cli.py --url &amp;quot;&amp;lt;URL&amp;gt;&amp;quot;&lt;/code&gt;&lt;/p&gt;
-
 &lt;p&gt;To access the github repository the API access token needs to be set (see Configuration).&lt;/p&gt;
-
 &lt;h2 id=&#34;collected-data&#34;&gt;Collected Data&lt;/h2&gt;
-
 &lt;p&gt;For analyzed github repositories metrics will be collected in &lt;code&gt;/tmp&lt;/code&gt; in &lt;code&gt;metrics.json&lt;/code&gt;.&lt;/p&gt;
-
 &lt;h2 id=&#34;docker&#34;&gt;Docker&lt;/h2&gt;
-
 &lt;p&gt;To build the container:&lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;docker build -t 507 .&lt;/code&gt;&lt;/p&gt;
-
 &lt;p&gt;To run the container:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;docker run --name 507 -v /tmp/dock:/tmp -e GITHUB_USER=&amp;quot;username&amp;quot; -e GITHUB_PASSWORD=&amp;quot;password&amp;quot; 507 &amp;amp;&lt;/code&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;code&gt;docker run --name 507 -v /tmp/dock:/tmp -e GITHUB_USER=&amp;quot;username&amp;quot; -e GITHUB_PASSWORD=&amp;quot;password&amp;quot; 507 &amp;amp; &lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;To remove the container:&lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;docker rm 507&lt;/code&gt;&lt;/p&gt;
-
 &lt;h2 id=&#34;supported-testing-frameworks&#34;&gt;Supported Testing Frameworks&lt;/h2&gt;
-
 &lt;p&gt;The space of Python testing is very fragmented, and there is not universal method of writing testcases. To make the process simple and extensible, we use the tox test framework, that simplifies the execution of the tests. We look at the standard locations to discover tests, and support the standard testing mechanisms. Here are our assumptions:&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The tests are placed in the ${project}/test[s] directory&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The requirements necessary are present in a requirements.txt file. Often developers specify multiple versions of this file.   We look for all files in the repository that have a name starting with &amp;lsquo;requirements&amp;rsquo; to include for installation in the virtualenv.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The supported methods of testing the project are: setup.py with a test recipe, py.tests, nosetests, and plain old unittests.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The tests are placed in the ${project}/test[s] directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The requirements necessary are present in a requirements.txt file. Often developers specify multiple versions of this file. 	We look for all files in the repository that have a name starting with &amp;lsquo;requirements&amp;rsquo; to include for installation in the virtualenv.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The supported methods of testing the project are: setup.py with a test recipe, py.tests, nosetests, and plain old unittests.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h2 id=&#34;known-issues-and-fixes&#34;&gt;Known issues and fixes&lt;/h2&gt;
-
 &lt;p&gt;When running &lt;code&gt;tox&lt;/code&gt; in the macOS terminal the following error might ocurr:&lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;unknown locale: UTF-8 in Python&lt;/code&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Trusted Capsules</title>
-      <link>/project/trusted_capsules/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
-      
-      <guid>/project/trusted_capsules/</guid>
+      <link>//localhost:1313/project/trusted_capsules/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 -0700</pubDate>
+      <guid>//localhost:1313/project/trusted_capsules/</guid>
       <description>&lt;p&gt;Security of data is tightly coupled to its access policy. However, in practice, a data owner has control of his data&amp;rsquo;s access policies only as far as the boundaries of his own systems. In this paper, we introduce graduated access control, which provides mobile, programmable, and dynamically-resolving policies for access control that extends a data owner&amp;rsquo;s policies across system boundaries. We realize this through a novel data-centric abstraction called trusted capsules and its associated system, the trusted data monitor.&lt;/p&gt;
-
 &lt;p&gt;A trusted capsule couples data and policy into a single mobile unit. A capsule is backwards-compatible and is indistinguishable from a regular file to applications. In coordination with the trusted data monitor a capsule provides data integrity and confidentiality on remote devices, strong authentication to a trusted capsule service, and supports nuanced and dynamic access control decisions on remote systems. We implemented our data monitor using ARM TrustZone.&lt;/p&gt;
-
 &lt;p&gt;We show that graduated access control can express novel and useful real world policies, such as revocation, remote monitoring, and risk-adaptable disclosure. We illustrate trusted capsules for different file formats, including JPEG, FODT, and PDF. We also show compatibility with unmodified applications, such as LibreOffice Writer, Evince, and VLC.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Slides</title>
-      <link>/slides/example-slides/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/slides/example-slides/</guid>
-      <description>
+      <title>Cross-platform Data Integrity and Confidentiality with Graduated Access Control</title>
+      <link>//localhost:1313/talk/tc/</link>
+      <pubDate>Fri, 11 May 2018 00:00:00 -0700</pubDate>
+      <guid>//localhost:1313/talk/tc/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- 
+Slides can be added in a few ways:
 
-&lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
+- **Create** slides using Academic&#39;s *Slides* feature and link using `url_slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
 
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
-&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
-&lt;li&gt;Supports speaker notes&lt;/li&gt;
-&lt;li&gt;Mobile friendly slides&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
-
-&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Code block:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
-if porridge == &amp;quot;blueberry&amp;quot;:
-    print(&amp;quot;Eating...&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
-
-&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
-
-&lt;p&gt;Block math:&lt;/p&gt;
-
-&lt;p&gt;$$
-f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
-
-&lt;p&gt;Make content appear incrementally&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  One
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  &lt;strong&gt;Two&lt;/strong&gt;
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  Three
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
-
-&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
-- Only the speaker can read these notes
-- Press `S` key to view
-{{% /speaker_note %}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
-
-&lt;aside class=&#34;notes&#34;&gt;
-  &lt;ul&gt;
-&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
-&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/aside&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
-&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
-&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
-&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
-&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
-&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-
-&lt;section data-noprocess data-shortcode-slide
-  
-      
-      data-background-image=&#34;/img/boards.jpg&#34;
-  &gt;
-
-
-&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
-
-&lt;p&gt;Customize the slide style and background&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
-{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
-{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
-
-&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
-
-&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
-.reveal section h2,
-.reveal section h3 {
-  color: navy;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code. --&gt;
 </description>
     </item>
     

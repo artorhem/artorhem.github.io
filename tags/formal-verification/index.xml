@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Formal Verification | Puneet Mehrotra</title>
+    <link>//localhost:1313/tags/formal-verification/</link>
+      <atom:link href="//localhost:1313/tags/formal-verification/index.xml" rel="self" type="application/rss+xml" />
+    <description>Formal Verification</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 20 Dec 2018 13:51:00 -0800</lastBuildDate>
+    <image>
+      <url>//localhost:1313/img/portrait.jpg</url>
+      <title>Formal Verification</title>
+      <link>//localhost:1313/tags/formal-verification/</link>
+    </image>
+    
+    <item>
+      <title>Analysing Snort with KLEE</title>
+      <link>//localhost:1313/project/formal_verification/</link>
+      <pubDate>Thu, 20 Dec 2018 13:51:00 -0800</pubDate>
+      <guid>//localhost:1313/project/formal_verification/</guid>
+      <description>&lt;p&gt;Verifying systems code is hard because of concurrency and inherent complexity of
+the code. Understanding the invariants and other behavioral and performance
+characteristics of a distributed systems is challenging because multiple nodes
+communicate and coordinate together towards the task of performing a
+computation.&lt;/p&gt;
+&lt;p&gt;Verification methods and tools implicitly assume that the code to be verified is
+deterministic. That is users of the software will provide relevant inputs, and
+by verifying program behavior using all possible values of that input, a given
+verification methodology can draw inferences about a system.&lt;/p&gt;
+&lt;p&gt;In the case of distributed software, the assumption of implicit determinism is
+void. Network software typically works in collaboration with other compute nodes
+in order to fulfill the required functionality. For example, in a peer-to-peer
+system, peers detect node failures using heartbeat messages. Service Oriented
+Architecture is another example where a number of services communicate using a
+complex chain of RPC calls. Since the underlying communication takes place in
+the form of raw packets, often the program behavior can potentially change if
+the packets are received out of order or packets are lost in the network.
+Therefore, in this context, both the incoming data and the send/receive order
+can potentially impact program behavior and consequently increase the complexity
+of verification methodology.&lt;/p&gt;
+&lt;p&gt;An additional challenge is attributed to concurrency. Most modern systems use
+multi-threading to achieve better performance. In such a case, the outcome of a
+program is a function of how individual threads are interleaved together.
+Reasoning about such interleaved execution paths is hard and adds another layer
+of complexity to the process of verification.&lt;/p&gt;
+&lt;p&gt;Given the above challenges, we were curious about the usability of existing
+symbolic execution tools for verification of system software. In particular, we
+were interested in understanding how easy it is to use symbolic execution to
+verify systems software that interacts with the networking stack. We, therefore,
+analyzed Snort using the popular symbolic execution engine named KLEE. We
+documented the challenges that we encountered along the way. We also looked at
+recent research papers to understand how they approach the problem of verifying
+such code.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;//localhost:1313/files/klee_snort.pdf&#34;&gt;PDF&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
