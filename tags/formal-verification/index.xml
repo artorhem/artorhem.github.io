@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Formal Verification | Puneet Mehrotra</title>
-    <link>//localhost:1313/tags/formal-verification/</link>
-      <atom:link href="//localhost:1313/tags/formal-verification/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/formal-verification/</link>
+      <atom:link href="/tags/formal-verification/index.xml" rel="self" type="application/rss+xml" />
     <description>Formal Verification</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 20 Dec 2018 13:51:00 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Puneet Mehrotra 2020</copyright><lastBuildDate>Thu, 20 Dec 2018 13:51:00 -0800</lastBuildDate>
     <image>
-      <url>//localhost:1313/img/portrait.jpg</url>
+      <url>/img/portrait.jpg</url>
       <title>Formal Verification</title>
-      <link>//localhost:1313/tags/formal-verification/</link>
+      <link>/tags/formal-verification/</link>
     </image>
     
     <item>
       <title>Analysing Snort with KLEE</title>
-      <link>//localhost:1313/project/formal_verification/</link>
+      <link>/project/formal_verification/</link>
       <pubDate>Thu, 20 Dec 2018 13:51:00 -0800</pubDate>
-      <guid>//localhost:1313/project/formal_verification/</guid>
+      <guid>/project/formal_verification/</guid>
       <description>&lt;p&gt;Verifying systems code is hard because of concurrency and inherent complexity of
 the code. Understanding the invariants and other behavioral and performance
 characteristics of a distributed systems is challenging because multiple nodes
@@ -50,7 +50,7 @@ analyzed Snort using the popular symbolic execution engine named KLEE. We
 documented the challenges that we encountered along the way. We also looked at
 recent research papers to understand how they approach the problem of verifying
 such code.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;//localhost:1313/files/klee_snort.pdf&#34;&gt;PDF&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/files/klee_snort.pdf&#34;&gt;PDF&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

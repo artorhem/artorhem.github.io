@@ -2,15 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Puneet Mehrotra</title>
-    <link>//localhost:1313/publication/</link>
-      <atom:link href="//localhost:1313/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>/publication/</link>
+      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Puneet Mehrotra 2020</copyright><lastBuildDate>Mon, 06 Jul 2020 18:07:29 -0700</lastBuildDate>
     <image>
-      <url>//localhost:1313/img/portrait.jpg</url>
+      <url>/img/portrait.jpg</url>
       <title>Publications</title>
-      <link>//localhost:1313/publication/</link>
+      <link>/publication/</link>
     </image>
+    
+    <item>
+      <title>Smooth Kronecker: Solving the Combing Problem in Kronecker Graphs</title>
+      <link>/publication/kronecker-grades20/</link>
+      <pubDate>Mon, 06 Jul 2020 18:07:29 -0700</pubDate>
+      <guid>/publication/kronecker-grades20/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

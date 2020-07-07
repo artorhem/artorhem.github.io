@@ -3,114 +3,166 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>//localhost:1313/project/formal_verification/</loc>
+    <loc>/publication_types/1/</loc>
+    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/benchmarking/</loc>
+    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/daniel-margo/</loc>
+    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/graph/</loc>
+    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/graph/</loc>
+    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/graph-generators/</loc>
+    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/kronecker/</loc>
+    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/margo-seltzer/</loc>
+    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/puneet-mehrotra/</loc>
+    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/kronecker-grades20/</loc>
+    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/vaastav-anand/</loc>
+    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/formal_verification/</loc>
     <lastmod>2018-12-20T13:51:00-08:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/tags/formal-verification/</loc>
+    <loc>/tags/formal-verification/</loc>
     <lastmod>2018-12-20T13:51:00-08:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/project/</loc>
+    <loc>/project/</loc>
     <lastmod>2018-12-20T13:51:00-08:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>/tags/software-engineering/</loc>
     <lastmod>2018-12-20T13:51:00-08:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/tags/software-engineering/</loc>
+    <loc>/tags/systems/</loc>
     <lastmod>2018-12-20T13:51:00-08:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/tags/systems/</loc>
-    <lastmod>2018-12-20T13:51:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2018-12-20T13:51:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//localhost:1313/project/revelio/</loc>
+    <loc>/project/revelio/</loc>
     <lastmod>2018-05-26T02:30:45-07:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/tags/security/</loc>
+    <loc>/tags/security/</loc>
     <lastmod>2018-05-25T00:00:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/project/trusted_capsules/</loc>
+    <loc>/project/trusted_capsules/</loc>
     <lastmod>2018-05-25T00:00:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/authors/puneet/</loc>
+    <loc>/authors/amanda-carbonari/</loc>
     <lastmod>2018-05-11T00:00:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/authors/amanda-carbonari/</loc>
+    <loc>/authors/andrew-warfield/</loc>
     <lastmod>2018-05-11T00:00:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/authors/andrew-warfield/</loc>
+    <loc>/talk/tc/</loc>
     <lastmod>2018-05-11T00:00:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/authors/</loc>
+    <loc>/authors/ivan-beschastnikh/</loc>
     <lastmod>2018-05-11T00:00:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/talk/tc/</loc>
+    <loc>/authors/peter-chen/</loc>
     <lastmod>2018-05-11T00:00:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/authors/ivan-beschastnikh/</loc>
+    <loc>/talk/</loc>
     <lastmod>2018-05-11T00:00:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/authors/peter-chen/</loc>
-    <lastmod>2018-05-11T00:00:00-07:00</lastmod>
+    <loc>/authors/puneet/</loc>
   </url>
   
   <url>
-    <loc>//localhost:1313/authors/puneet-mehrotra/</loc>
-    <lastmod>2018-05-11T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//localhost:1313/talk/</loc>
-    <lastmod>2018-05-11T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//localhost:1313/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>//localhost:1313/post/</loc>
-  </url>
-  
-  <url>
-    <loc>//localhost:1313/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>//localhost:1313/publication/</loc>
+    <loc>/post/</loc>
   </url>
   
 </urlset>

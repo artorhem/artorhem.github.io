@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Puneet Mehrotra</title>
-    <link>//localhost:1313/authors/puneet/</link>
-      <atom:link href="//localhost:1313/authors/puneet/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/puneet/</link>
+      <atom:link href="/authors/puneet/index.xml" rel="self" type="application/rss+xml" />
     <description>Puneet Mehrotra</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Fri, 11 May 2018 00:00:00 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Puneet Mehrotra 2020</copyright>
     <image>
-      <url>//localhost:1313/img/portrait.jpg</url>
+      <url>/img/portrait.jpg</url>
       <title>Puneet Mehrotra</title>
-      <link>//localhost:1313/authors/puneet/</link>
+      <link>/authors/puneet/</link>
     </image>
     
   </channel>
