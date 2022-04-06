@@ -1,168 +1,102 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>/publication_types/1/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/authors/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/benchmarking/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/authors/daniel-margo/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/graph/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/graph/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/graph-generators/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/kronecker/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/authors/margo-seltzer/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/publication_types/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/publication/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/authors/puneet-mehrotra/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/publication/kronecker-grades20/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/authors/vaastav-anand/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/project/formal_verification/</loc>
-    <lastmod>2018-12-20T13:51:00-08:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-12-20T13:51:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/formal-verification/</loc>
-    <lastmod>2018-12-20T13:51:00-08:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-12-20T13:51:00+00:00</lastmod>
+  </url><url>
     <loc>/project/</loc>
-    <lastmod>2018-12-20T13:51:00-08:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-12-20T13:51:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/software-engineering/</loc>
-    <lastmod>2018-12-20T13:51:00-08:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-12-20T13:51:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/systems/</loc>
-    <lastmod>2018-12-20T13:51:00-08:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-12-20T13:51:00+00:00</lastmod>
+  </url><url>
     <loc>/project/revelio/</loc>
-    <lastmod>2018-05-26T02:30:45-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-05-26T02:30:45+00:00</lastmod>
+  </url><url>
     <loc>/tags/security/</loc>
-    <lastmod>2018-05-25T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-05-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/project/trusted_capsules/</loc>
-    <lastmod>2018-05-25T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-05-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/authors/amanda-carbonari/</loc>
-    <lastmod>2018-05-11T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-05-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/authors/andrew-warfield/</loc>
-    <lastmod>2018-05-11T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-05-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/talk/tc/</loc>
-    <lastmod>2018-05-11T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-05-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/authors/ivan-beschastnikh/</loc>
-    <lastmod>2018-05-11T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-05-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/authors/peter-chen/</loc>
-    <lastmod>2018-05-11T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-05-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/talk/</loc>
-    <lastmod>2018-05-11T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-05-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/authors/puneet/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/post/</loc>
   </url>
-  
 </urlset>

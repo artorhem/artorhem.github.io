@@ -23,7 +23,7 @@
     <item>
       <title>Analysing Snort with KLEE</title>
       <link>/project/formal_verification/</link>
-      <pubDate>Thu, 20 Dec 2018 13:51:00 -0800</pubDate>
+      <pubDate>Thu, 20 Dec 2018 13:51:00 +0000</pubDate>
       <guid>/project/formal_verification/</guid>
       <description>&lt;p&gt;Verifying systems code is hard because of concurrency and inherent complexity of
 the code. Understanding the invariants and other behavioral and performance
@@ -65,7 +65,7 @@ such code.&lt;/p&gt;
     <item>
       <title>Revelio</title>
       <link>/project/revelio/</link>
-      <pubDate>Sat, 26 May 2018 02:30:45 -0700</pubDate>
+      <pubDate>Sat, 26 May 2018 02:30:45 +0000</pubDate>
       <guid>/project/revelio/</guid>
       <description>&lt;p&gt;&lt;strong&gt;
 &lt;a href=&#34;https://github.com/artorhem/cpsc-507&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Revelio&lt;/a&gt;&lt;/strong&gt; is a tool that statically analyses Python code for known vulnerabilities. The tool provides a IDE plugin for Sublime for highlighting vulnerabilities as well as a command-line interfaces that provides the following features:&lt;/p&gt;
@@ -123,7 +123,7 @@ such code.&lt;/p&gt;
     <item>
       <title>Trusted Capsules</title>
       <link>/project/trusted_capsules/</link>
-      <pubDate>Fri, 25 May 2018 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
       <guid>/project/trusted_capsules/</guid>
       <description>&lt;p&gt;Security of data is tightly coupled to its access policy. However, in practice, a data owner has control of his data&amp;rsquo;s access policies only as far as the boundaries of his own systems. In this paper, we introduce graduated access control, which provides mobile, programmable, and dynamically-resolving policies for access control that extends a data owner&amp;rsquo;s policies across system boundaries. We realize this through a novel data-centric abstraction called trusted capsules and its associated system, the trusted data monitor.&lt;/p&gt;
 &lt;p&gt;A trusted capsule couples data and policy into a single mobile unit. A capsule is backwards-compatible and is indistinguishable from a regular file to applications. In coordination with the trusted data monitor a capsule provides data integrity and confidentiality on remote devices, strong authentication to a trusted capsule service, and supports nuanced and dynamic access control decisions on remote systems. We implemented our data monitor using ARM TrustZone.&lt;/p&gt;
@@ -134,7 +134,7 @@ such code.&lt;/p&gt;
     <item>
       <title>Cross-platform Data Integrity and Confidentiality with Graduated Access Control</title>
       <link>/talk/tc/</link>
-      <pubDate>Fri, 11 May 2018 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
       <guid>/talk/tc/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
