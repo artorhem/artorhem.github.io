@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>graph | Puneet Mehrotra</title>
+    <title>Graph | Puneet Mehrotra</title>
     <link>/tags/graph/</link>
       <atom:link href="/tags/graph/index.xml" rel="self" type="application/rss+xml" />
-    <description>graph</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Puneet Mehrotra 2020</copyright><lastBuildDate>Mon, 06 Jul 2020 18:07:29 -0700</lastBuildDate>
+    <description>Graph</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Puneet Mehrotra 2024</copyright><lastBuildDate>Mon, 01 Apr 2024 18:07:29 -0700</lastBuildDate>
     <image>
       <url>/img/portrait.jpg</url>
-      <title>graph</title>
+      <title>Graph</title>
       <link>/tags/graph/</link>
     </image>
+    
+    <item>
+      <title>SoK: The Faults in our Graph Benchmarks</title>
+      <link>/publication/benchmarks-sok24/</link>
+      <pubDate>Mon, 01 Apr 2024 18:07:29 -0700</pubDate>
+      <guid>/publication/benchmarks-sok24/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Smooth Kronecker: Solving the Combing Problem in Kronecker Graphs</title>

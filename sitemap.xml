@@ -2,25 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/publication_types/1/</loc>
-    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+    <loc>/publication_types/3/</loc>
+    <lastmod>2024-04-01T18:07:29-07:00</lastmod>
   </url><url>
     <loc>/authors/</loc>
-    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+    <lastmod>2024-04-01T18:07:29-07:00</lastmod>
   </url><url>
     <loc>/tags/benchmarking/</loc>
-    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+    <lastmod>2024-04-01T18:07:29-07:00</lastmod>
+  </url><url>
+    <loc>/tags/best-practices/</loc>
+    <lastmod>2024-04-01T18:07:29-07:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+    <lastmod>2024-04-01T18:07:29-07:00</lastmod>
   </url><url>
     <loc>/authors/daniel-margo/</loc>
-    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+    <lastmod>2024-04-01T18:07:29-07:00</lastmod>
   </url><url>
     <loc>/tags/graph/</loc>
-    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
+    <lastmod>2024-04-01T18:07:29-07:00</lastmod>
   </url><url>
     <loc>/categories/graph/</loc>
+    <lastmod>2024-04-01T18:07:29-07:00</lastmod>
+  </url><url>
+    <loc>/authors/margo-seltzer/</loc>
+    <lastmod>2024-04-01T18:07:29-07:00</lastmod>
+  </url><url>
+    <loc>/authors/milad-rezaei-hajidehi/</loc>
+    <lastmod>2024-04-01T18:07:29-07:00</lastmod>
+  </url><url>
+    <loc>/publication_types/</loc>
+    <lastmod>2024-04-01T18:07:29-07:00</lastmod>
+  </url><url>
+    <loc>/publication/</loc>
+    <lastmod>2024-04-01T18:07:29-07:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-04-01T18:07:29-07:00</lastmod>
+  </url><url>
+    <loc>/authors/puneet-mehrotra/</loc>
+    <lastmod>2024-04-01T18:07:29-07:00</lastmod>
+  </url><url>
+    <loc>/publication/benchmarks-sok24/</loc>
+    <lastmod>2024-04-01T18:07:29-07:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-04-01T18:07:29-07:00</lastmod>
+  </url><url>
+    <loc>/authors/vaastav-anand/</loc>
+    <lastmod>2024-04-01T18:07:29-07:00</lastmod>
+  </url><url>
+    <loc>/publication_types/1/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
   </url><url>
     <loc>/tags/graph-generators/</loc>
@@ -29,28 +62,7 @@
     <loc>/tags/kronecker/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
   </url><url>
-    <loc>/authors/margo-seltzer/</loc>
-    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url><url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url><url>
-    <loc>/publication/</loc>
-    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url><url>
-    <loc>/authors/puneet-mehrotra/</loc>
-    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url><url>
     <loc>/publication/kronecker-grades20/</loc>
-    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2020-07-06T18:07:29-07:00</lastmod>
-  </url><url>
-    <loc>/authors/vaastav-anand/</loc>
     <lastmod>2020-07-06T18:07:29-07:00</lastmod>
   </url><url>
     <loc>/project/formal_verification/</loc>
@@ -94,6 +106,8 @@
   </url><url>
     <loc>/talk/</loc>
     <lastmod>2018-05-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/authors/</loc>
   </url><url>
     <loc>/authors/puneet/</loc>
   </url><url>
